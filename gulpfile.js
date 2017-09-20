@@ -5,6 +5,7 @@ var browsersync = require('browser-sync');
 gulp.task('default',['style','browsersync'], function() {
 	gulp.watch('sass/**/*.scss',['style']);
 	gulp.watch('public/**/*.html',browsersync.reload);
+	gulp.watch('index.html',browsersync.reload);
 	gulp.watch('public/js/**/*.js',browsersync.reload);
 });
 
