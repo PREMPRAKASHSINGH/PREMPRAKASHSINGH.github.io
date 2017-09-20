@@ -19,7 +19,7 @@ gulp.task('style', function() {
 
 gulp.task('browsersync', function() {
 	return browsersync.init({
-		server: "./public",
+		server: "./",
 		index: "index.html"
 	});
 });
