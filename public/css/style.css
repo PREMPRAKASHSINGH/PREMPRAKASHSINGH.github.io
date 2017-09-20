@@ -2,8 +2,7 @@
   font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif; }
 
 body {
-  color: #333;
-  width: 100vw; }
+  color: #333; }
 
 .navigation {
   background-color: #2C3E50;
@@ -74,6 +73,8 @@ body {
   .portfolio .project-item {
     padding: 10px;
     border-radius: 5px; }
+    .portfolio .project-item img {
+      height: 170px; }
     .portfolio .project-item .project-item-text {
       margin: 10px auto;
       text-align: center; }
@@ -91,7 +92,7 @@ body {
     border-bottom: 1px solid #eee;
     height: 70px;
     padding-top: 10px; }
-  .contact input[type='text'] {
+  .contact input[type='text'], .contact input[type='email'] {
     padding: 10px 5px;
     width: 100%;
     border: none;
