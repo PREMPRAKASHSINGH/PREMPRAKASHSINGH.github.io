@@ -1,12 +1,15 @@
 * {
-  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif; }
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  margin: 0px;
+  padding: 0px; }
 
 body {
-  color: #333; }
+  color: #333;
+  width: 100vw; }
 
 .navigation {
   background-color: #2C3E50;
-  width: 100%;
+  width: 100vw;
   color: white;
   height: 70px;
   position: fixed;
@@ -44,7 +47,6 @@ body {
       right: 10px;
       cursor: pointer; }
     .navigation .burger ul {
-      display: block;
       background: #2C3E50;
       width: 100%;
       height: 180px;

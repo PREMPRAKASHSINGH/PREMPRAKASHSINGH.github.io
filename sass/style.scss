@@ -2,13 +2,16 @@ $navColor : #2C3E50;
 $intro : #df5d4a;
 *{
   font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  margin: 0px;
+  padding: 0px;
 }
 body{
   color: #333;
+  width: 100vw;
 }
 .navigation {
   background-color: $navColor;
-  width: 100%;
+  width: 100vw;
   color: white;
   height: 70px;
   position: fixed;
@@ -53,7 +56,6 @@ body{
         cursor: pointer;
       }
       ul{
-        display: block;
         background: $navColor;
         width: 100%;
         height: 180px;
